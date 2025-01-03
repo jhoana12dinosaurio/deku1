@@ -1,0 +1,30 @@
+.navbar {
+    height: 40px; /* Altura reducida del navbar */
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background-color: #a4c6e7 !important; /* Color de fondo claro */
+}
+
+.navbar-nav {
+    align-items: center; /* Centra verticalmente los elementos del menú */
+    height: 100%;
+}
+
+.nav-link {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    line-height: 40px; /* Alinea verticalmente el texto */
+}
+
+.container-fluid {
+    padding: 0 15px;
+}
+
+/* Para el botón hamburguesa en móviles */
+.navbar-toggler {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+}
+.nav-item {
+    margin: 0 10px;
+}
