@@ -1,30 +1,86 @@
 .navbar {
-    height: 40px; /* Altura reducida del navbar */
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    background-color: #a4c6e7 !important; /* Color de fondo claro */
+    min-height: 70px; /* Aumentamos la altura mínima */
+    padding: 5px 0 !important; /* Añadimos un poco de padding vertical */
+    background-color: #a4c6e7 !important;
 }
 
-.navbar-nav {
-    align-items: center; /* Centra verticalmente los elementos del menú */
+/* Estilo para la imagen del logo */
+.navbar img {
+    width: 120px;
+    height: auto;
+    object-fit: contain; /* Mantiene la proporción de la imagen */
+}
+
+/* Ajustamos el padding del body para el nuevo tamaño del navbar */
+body {
+    padding-top: 80px; /* Aumentamos el padding-top para el nuevo tamaño del navbar */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin-top: 20px;
+}
+.image-section {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px; /* Añade margen superior */
+}
+
+.image-section img {
+    max-width: 300px;
+    width: 100%; /* Asegura que la imagen tome el ancho completo hasta el max-width */
+    height: auto;
+    object-fit: contain; /* Mantiene la proporción */
+}
+.section-img {
+    padding: 30px;
+    border-radius: 3px;
+    border: 5px;
+    border-color: black;
+}
+.galeria-port {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.imagen-port {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+.imagen-port > img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+.hover-galeria {
+    position: absolute;
+    width: 100%;
     height: 100%;
+    top: 0%;
+    transform: scale(0);
+    background: hsla(76, 41%, 7%, 0.863);
+    transition: transform 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
-.nav-link {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    line-height: 40px; /* Alinea verticalmente el texto */
+.hover-galeria img {
+    width: 200px;
 }
-
-.container-fluid {
-    padding: 0 15px;
-}
-
-/* Para el botón hamburguesa en móviles */
-.navbar-toggler {
-    padding: 0.2rem 0.5rem;
-    font-size: 0.8rem;
-}
-.nav-item {
-    margin: 0 10px;
+.hover-galeria p {
+    color: #fff;
 }
