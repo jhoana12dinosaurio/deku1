@@ -1,11 +1,8 @@
-a.navbar-posision {
-    color: #963f3f;
-}
-a.navbar-posision img {
-    width: 120px;
+.bg-custom-green {
+    background-color: rgba(160, 219, 160, 0.788) !important;
 }
 
-/*--------------------------*/
+/*-----------productos---------------*/
 
 .product-card {
     border: 1px solid #ddd;
@@ -89,7 +86,7 @@ a.navbar-posision img {
 .btn-primary:hover {
     background-color: #a01574;
 }
-/*--------------------------*/
+/*-----------swiper---------------*/
 .swiper-slide p {
     font-size: 1.2rem;
     color: #000;
@@ -97,3 +94,4 @@ a.navbar-posision img {
 .swiper-charts {
     width: 600px;
 }
+/*-----------footer---------------*/
