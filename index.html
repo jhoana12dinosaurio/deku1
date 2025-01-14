@@ -5,6 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="bootstrap.min.css" />
         <link
+            rel="shortcut icon"
+            href="img/Blue_Colorful_Cute_Playful_Classroom_Announcement_A4_Document-removebg-preview.png"
+            type="image/x-icon"
+        />
+        <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         />
@@ -18,7 +23,7 @@
                 <div class="container-fluid">
                     <a class="navbar-position" href="#"
                         ><img
-                            style="width: 100px"
+                            style="width: 150px"
                             src="img/Blue_Colorful_Cute_Playful_Classroom_Announcement_A4_Document-removebg-preview.png"
                             alt=""
                     /></a>
@@ -39,10 +44,7 @@
                     >
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a
-                                    class="nav-link active"
-                                    aria-current="page"
-                                    href="#"
+                                <a class="nav-link" aria-current="page" href="#"
                                     >Home</a
                                 >
                             </li>
@@ -51,7 +53,31 @@
                                     >Productos</a
                                 >
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacto</a>
+                            </li>
                         </ul>
+                        <div class="cart-wrapper">
+                            <a href="#" class="cart-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="cart-count"
+                                    ><img
+                                        style="width: 30px"
+                                        src="img/carrito-de-compras.png"
+                                        alt=""
+                                /></span>
+                            </a>
+                            <!-- Popup del carrito -->
+                            <div class="cart-popup">
+                                <h4>Carrito</h4>
+                                <p class="empty-cart">
+                                    No hay productos en el carrito.
+                                </p>
+                                <a href="#" class="btn btn-primary"
+                                    >VER CARRITO</a
+                                >
+                            </div>
+                        </div>
                         <form class="d-flex" role="search">
                             <input
                                 class="form-control me-2"
@@ -70,15 +96,18 @@
                 </div>
             </nav>
         </header>
-        <main class="container mt-5">
+        <main class="container">
+            <div class="img-section">
+                <div>
+                    <img src="img/modelo.jpg" alt="" />
+                    <h2>"Belleza natural, cuidado excepcional."</h2>
+                </div>
+            </div>
             <div class="section">
                 <div class="container pb-6">
                     <div class="rows items justify">
                         <div class="text-h2">
-                            <h2 class="pb-4">
-                                Let us solve your critical website development
-                                challenges
-                            </h2>
+                            <h2 class="pb-4">Nuestros products mas vendidos</h2>
                             <div class="mt-16">
                                 <div class="swiper-brands swiper brand-slider">
                                     <div class="swiper-wrapper">
@@ -221,15 +250,6 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <div>
-                    <h2>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dolor alias pariatur impedit, placeat nesciunt nostrum
-                        dolorem repudiandae rerum autem.
-                    </h2>
-                </div>
-            </div>
         </main>
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -296,8 +316,8 @@
     </body>
     <footer>
         <section
-            class="container-fluid align-items-center"
-            style="background-color: rgb(178, 228, 168)"
+            class="container-footer container-fluid align-items-center"
+            style="background-color: rgba(82, 164, 150, 1) !important"
         >
             <div class="container flex row mb-2 mb-lg-0 mx-auto pt-20 pb-4">
                 <h2>Hola bienvenidos</h2>
@@ -307,6 +327,20 @@
                     precios increíbles.
                 </p>
             </div>
+            <div class="information-button">
+                <a href="">conoce mas de nosotros</a>
+            </div>
+            <div>
+                <img src="img/icons8-facebook-nuevo-24.png" alt="" />
+                <img src="img/icons8-instagram-24.png" alt="" />
+                <img src="img/icons8-tik-tok-24.png" alt="" />
+            </div>
+        </section>
+        <section class="creador-jhoa">
+            <p>
+                © 2024 TOP BEAUTY- TODOS LOS DERECHOS RESERVADOS. DESARROLLADO
+                POR JHOANA
+            </p>
         </section>
     </footer>
 </html>
